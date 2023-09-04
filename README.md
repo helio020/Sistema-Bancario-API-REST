@@ -12,30 +12,47 @@ API Rest para um sistema bancário, com operações CRUD (Create, Read, Update e
 
 # Endpoints:
 
-## Criar conta bancária 
-http://localhost:3000/contas </br>
-![]()
-
 ## Listar contas bancárias
 http://localhost:3000/contas?senha_banco=Cubos123Bank
 
+![](img/listar-contas.PNG)
+
+## Criar conta bancária 
+http://localhost:3000/contas
+
+![](img/criar-conta.PNG)
+
 ## Atualizar os dados do usuário da conta bancária
-http://localhost:3000/contas/1/usuario
+http://localhost:3000/contas/:numeroConta/usuario
+
+![](img/atualizar-conta.PNG)
 
 ## Excluir uma conta bancária
-http://localhost:3000/contas/2
+http://localhost:3000/contas/:numeroConta
 
-## Depósitar em uma conta bancária
+![](img/excluir-conta.PNG)
+
+## Depositar em uma conta bancária
 http://localhost:3000/transacoes/depositar
+
+![](img/depositar.PNG)
 
 ## Sacar de uma conta bancária 
 http://localhost:3000/transacoes/sacar
 
+![](img/sacar.PNG)
+
 ## Transferir valores entre contas bancárias
 http://localhost:3000/transacoes/transferir
+
+![](img/transferir.PNG)
 
 ## Consultar saldo da conta bancária
 http://localhost:3000/contas/saldo?numero_conta=1&senha=12342
 
+![](img/saldo.PNG)
+
 ## Emitir extrato bancário
 http://localhost:3000/contas/extrato?numero_conta=1&senha=12342
+
+![](img/extrato.PNG)
