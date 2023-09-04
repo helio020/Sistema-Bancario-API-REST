@@ -56,3 +56,12 @@ http://localhost:3000/contas/saldo?numero_conta=1&senha=12342
 http://localhost:3000/contas/extrato?numero_conta=1&senha=12342
 
 ![](img/extrato.PNG)
+
+## Tecnologias utilizadas:
+
+<div style="display: inline_block"></br>
+  <div style="display: inline_block">
+  <img align="center" alt="Js" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Js" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+  <img align="center" alt="Js" height="55" width="55" src="https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png">                 
+</div>
