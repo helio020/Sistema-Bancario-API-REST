@@ -2,7 +2,19 @@
 
 ## Sobre:
 
-API Rest para um sistema bancário, com operações CRUD (Create, Read, Update e Delete). A linguagem utilizada para desenvolver a API foi o JavaScript com Node.js utilizando os pacotes Express, nodemon e data-fns. 
+API Rest para um sistema bancário, com operações CRUD (Create, Read, Update e Delete). A linguagem utilizada para desenvolver a API foi o JavaScript com Node.js utilizando os pacotes Express, nodemon e data-fns.
+
+## Funcionalidades:
+
+🔹 Criar conta bancária
+🔹 Listar contas bancárias
+🔹 Atualizar os dados do usuário da conta bancária
+🔹 Excluir uma conta bancária
+🔹 Depósitar em uma conta bancária
+🔹 Sacar de uma conta bancária
+🔹 Transferir valores entre contas bancárias
+🔹 Consultar saldo da conta bancária
+🔹 Emitir extrato bancário
 
 ## Como executar:
 
