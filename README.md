@@ -6,15 +6,15 @@ API Rest para um sistema bancário, com operações CRUD (Create, Read, Update e
 
 ## Funcionalidades:
 
-🔹 Criar conta bancária
-🔹 Listar contas bancárias
-🔹 Atualizar os dados do usuário da conta bancária
-🔹 Excluir uma conta bancária
-🔹 Depósitar em uma conta bancária
-🔹 Sacar de uma conta bancária
-🔹 Transferir valores entre contas bancárias
-🔹 Consultar saldo da conta bancária
-🔹 Emitir extrato bancário
+🔹 Criar conta bancária </br>
+🔹 Listar contas bancárias </br>
+🔹 Atualizar os dados do usuário da conta bancária </br>
+🔹 Excluir uma conta bancária </br>
+🔹 Depósitar em uma conta bancária </br>
+🔹 Sacar de uma conta bancária </br>
+🔹 Transferir valores entre contas bancárias </br>
+🔹 Consultar saldo da conta bancária </br>
+🔹 Emitir extrato bancário </br>
 
 ## Como executar:
 
