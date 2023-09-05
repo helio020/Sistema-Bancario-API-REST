@@ -7,8 +7,17 @@ API Rest para um sistema bancário, com operações CRUD (Create, Read, Update e
 ## Como executar:
 
 1. Faça o fork do projeto e em seguida clone para sua máquina.
-2. Abra o VSCode na pasta clonada e digite este comando no terminal: 'npm install'. Em seguida, todos os pacotes listados como dependências serão instalados e estarão na pasta node_modules.
-3. Depois de instalado os pacotes, iremos digitar 'npm run dev'. Com isso, teremos o servidor inicializado e para testar os endpoints utilize o Postman, Insomnia ou outros de sua escolha.
+2. Abra o VSCode na pasta clonada e digite este comando no terminal:
+```bash
+npm install
+```
+  Em seguida, todos os pacotes listados como dependências serão instalados e estarão na pasta node_modules.
+  
+3. Depois de instalado os pacotes, iremos digitar:
+```bash
+npm run dev
+```
+Com isso, teremos o servidor inicializado e para testar os endpoints utilize o Postman, Insomnia ou outros de sua escolha.
 
 # Endpoints:
 
