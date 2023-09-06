@@ -1,17 +1,18 @@
 const { Router } = require('express');
-const controlador = require('../controller/controlador');
+const contas = require('../controllers/contas');
+const transacoes = require('../controllers/transacoes');
 const intermediador = require('../middleware/intermediador');
 
 const rotas = Router();
 
-rotas.get('/contas', intermediador.senha, controlador.listarContas);
-rotas.post('/contas', controlador.criarConta);
-rotas.put('/contas/:numeroConta/usuario', controlador.atualizarUsuario);
-rotas.delete('/contas/:numeroConta', controlador.excluirConta);
-rotas.post('/transacoes/depositar', controlador.depositar);
-rotas.post('/transacoes/sacar', controlador.sacar);
-rotas.post('/transacoes/transferir', controlador.transferir);
-rotas.get('/contas/saldo', controlador.saldo);
-rotas.get('/contas/extrato', controlador.extrato);
+rotas.get('/contas', intermediador.senha, contas.listarContas);
+rotas.post('/contas', contas.criarConta);
+rotas.put('/contas/:numeroConta/usuario', contas.atualizarUsuario);
+rotas.delete('/contas/:numeroConta', contas.excluirConta);
+rotas.post('/transacoes/depositar', transacoes.depositar);
+rotas.post('/transacoes/sacar', transacoes.sacar);
+rotas.post('/transacoes/transferir', transacoes.transferir);
+rotas.get('/contas/saldo', contas.saldo);
+rotas.get('/contas/extrato', contas.extrato);
 
 module.exports = rotas;
