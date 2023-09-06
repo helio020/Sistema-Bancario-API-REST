@@ -91,7 +91,9 @@ const excluirConta = (req, res) => {
         return res.status(403).json({ mensagem: 'A conta só pode ser removida se o saldo for zero!' })
     }
 
-    contas = contas.filter((conta) => conta.numero !== numeroConta);
+    const indice = contas.indexOf(contaEncontrada);
+
+    contas.splice(indice, 1);
 
     return res.status(204).send();
 };
