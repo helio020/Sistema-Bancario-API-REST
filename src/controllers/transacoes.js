@@ -57,6 +57,10 @@ const sacar = (req, res) => {
         return res.status(403).json({ mensagem: 'O valor não pode ser menor que zero!' })
     }
 
+    if (valor > contaEncontrada.saldo) {
+        return res.status(403).json({ mensagem: 'O valor informado para saque é acima do saldo em conta.' })
+    }
+
     contaEncontrada.saldo -= valor;
 
     const registroSaque = {
@@ -97,6 +101,10 @@ const transferir = (req, res) => {
 
     if (contaOrigem.saldo <= 0) {
         return res.status(403).json({ mensagem: 'Saldo insuficiente para transferência!' })
+    }
+
+    if (valor > contaOrigem.saldo) {
+        return res.status(403).json({ mensagem: 'O valor informado para transferência é acima do saldo em conta.' })
     }
 
     let contaDestino = buscarContaPorNumero(numero_conta_destino);
